@@ -1,0 +1,17 @@
+{
+  "short_name": "Chat PWA",
+  "description": "A chat application built with React",
+  "orientation": "portrait",
+  "name": "React Chat PWA",
+  "icons": [
+    {
+      "src": "vite.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
