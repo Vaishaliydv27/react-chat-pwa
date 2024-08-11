@@ -6,6 +6,7 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  base: "/react-chat-pwa/",
   plugins: [
     react(),
     VitePWA({
@@ -16,12 +17,12 @@ export default defineConfig({
         name: "React Chat PWA",
         icons: [
           {
-            src: "vite.svg",
+            src: "/react-chat-pwa/vite.svg",
             type: "image/svg+xml",
             sizes: "512x512",
           },
         ],
-        start_url: "/",
+        start_url: "/react-chat-pwa/",
         display: "standalone",
         theme_color: "#000000",
         background_color: "#ffffff",
